@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.carousel-item {
+    height: 400px;
+}
+.carousel-item img {
+    min-height: 400px;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.carousel-control-next-icon:hover, .carousel-control-prev-icon:hover,
+.carousel-control-next-icon:focus, .carousel-control-prev-icon:focus {
+    border: 2px solid #2980b9;
+    border-radius: 100%;
+}
+.card {
+    border: none;
+    margin-bottom: 1rem;
+}
+.card-title {
+    color: #2980b9;
+}
+.product-price {
+    display: inline-block;
+    background-color: orange;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: .8s width;
+    color: #2980b9;
+}
+.product-price:hover {
+    width: 100px;
+}
