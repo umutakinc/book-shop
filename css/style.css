@@ -6,9 +6,6 @@
 a {
     text-decoration: none;
 }
-a:hover {
-    text-decoration: underline;
-}
 .carousel-item {
     height: 400px;
 }
